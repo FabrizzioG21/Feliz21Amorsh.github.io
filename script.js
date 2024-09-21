@@ -140,7 +140,7 @@ function esperar(ms) {
 }
 
 async function main() {
-  await esperar(11000); //tiempo de mensaje  
+  await esperar(14000); //tiempo de mensaje  
   textLove.classList.add('fadeTextOut');
   document.body.classList.remove("container");
   setInterval(toggleDayNight, 8000);
